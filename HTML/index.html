@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link href="/CSS/index.css" rel="stylesheet">
+        <script src="index.js"></script>
+        <title>CheckOut</title>
+    </head>
     <body>
-
-        <h1>My First Heading</h1>
-
-        <p>My first paragraph.</p>
-
+      <div class="main-container">
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="/img/Compass-Free-PNG-Image.png" alt="compass" class="compass1">
+            </div>
+          
+            <section class="container">
+            <div class="container1">
+              <label for="uname"><b></b></label>
+              <input class= "phonenumber" type="text" placeholder="Phone Number" name="uname" required>
+            </div>
+            <div class="container2">
+              <label for="psw"><b></b></label>
+              <input class="password" type="pswd" placeholder="Password" name="psw" required>
+            </div>
+            <div class="container3">
+              <button class="btn1">Welcome</button>
+            </div>
+            </section>
+            <div class="container4">
+              <!-- <span class="rembrme"><a href="#">Remember Me</a></span> -->
+                <label>
+                    <input class="checkbox" type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <span class="psw"><a href="#">Forgot password?</a></span>
+            </div>
+        </form>
+      </div>
     </body>
 </html>
